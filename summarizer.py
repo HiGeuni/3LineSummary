@@ -1,5 +1,3 @@
-from ipaddress import summarize_address_range
-import sys
 from crawler import getNewsContent
 from textRank import *
 
