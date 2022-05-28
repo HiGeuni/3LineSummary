@@ -68,6 +68,7 @@ Mode 1 : News Mode
   ```
 
 - output :  손흥민은 프리미어리그가 27일(현지시간) 발표한 2021-2022시즌 리그 올해의 팀 한자리를 꿰찼다. 2021-2022시즌 프리미어리그 올해의 팀.  올해의 팀에 선정된 토트넘 선수는 손흥민이 유일하다.
+![image](https://user-images.githubusercontent.com/59858440/170812570-2cc54809-394d-4910-b55d-830006e3735e.png)
 
 Mode 2 : Custom Text Mode
 
