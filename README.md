@@ -61,7 +61,7 @@ Mode 1 : News Mode
 - 예시
 
   ```
-  ❯ python summarizer.py
+  ❯ python summarizer_pos_tagging.py
   Select Mode - 1 : News, 2 : Custom Text
   1
   Input Url : https://www.yna.co.kr/view/AKR20220528021400007?input=1195m
@@ -83,7 +83,7 @@ Mode 2 : Custom Text Mode
 - 예시
 
   ``` 
-  ❯ python summarizer.py                                                                                       
+  ❯ python summarizer_pos_tagging.py                                                                                       
   Select Mode - 1 : News, 2 : Custom Text
   2
   Input Text all and input 'end' : ~~~~~~
