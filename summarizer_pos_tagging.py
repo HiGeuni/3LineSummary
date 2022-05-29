@@ -1,5 +1,5 @@
-from crawler import getNewsContent
-from textRank import *
+from modules.crawler import getNewsContent
+from modules.textRank import *
 
 def summarize_contents(x):
     tr = TextRank()
