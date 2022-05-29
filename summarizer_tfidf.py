@@ -6,7 +6,7 @@ def summarize_contents(x):
     token = tokenize(x)
     tr.loadSentence(token)
 
-    tr.build(token)
+    tr.build()
     ranks = tr.get_rank()
     return tr.summarize(0.2)
 
