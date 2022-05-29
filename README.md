@@ -72,7 +72,7 @@ Mode 1 : News Mode
 ![image](https://user-images.githubusercontent.com/59858440/170812570-2cc54809-394d-4910-b55d-830006e3735e.png)
 
 
-![image](https://user-images.githubusercontent.com/81402827/170858927-866b1d0a-77c0-4380-8d75-9a2d85f1a048.png)
+  ![image](https://user-images.githubusercontent.com/81402827/170858927-866b1d0a-77c0-4380-8d75-9a2d85f1a048.png)
 
 Mode 2 : Custom Text Mode
 
