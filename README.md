@@ -45,8 +45,6 @@ python summarizer_pos_tagging.py
 python summarizer_tfidf.py
 ```
 
-**Mode  -1 : summarizer_pos_tagging, 2: summarizer_pos_tagging **
-
 위의 코드를 실행하면 다음과 같은 안내가 나온다.
 
 **Select Mode - 1 : News, 2 : Custom Text**
@@ -72,6 +70,8 @@ Mode 1 : News Mode
 
 - output :  손흥민은 프리미어리그가 27일(현지시간) 발표한 2021-2022시즌 리그 올해의 팀 한자리를 꿰찼다. 2021-2022시즌 프리미어리그 올해의 팀.  올해의 팀에 선정된 토트넘 선수는 손흥민이 유일하다.
 ![image](https://user-images.githubusercontent.com/59858440/170812570-2cc54809-394d-4910-b55d-830006e3735e.png)
+<img width="724" alt="스크린샷 2022-05-29 오후 5 17 13" src="https://user-images.githubusercontent.com/81402827/170858927-866b1d0a-77c0-4380-8d75-9a2d85f1a048.png">
+
 
 Mode 2 : Custom Text Mode
 
