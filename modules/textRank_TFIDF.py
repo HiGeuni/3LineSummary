@@ -47,10 +47,10 @@ class TextRank:
         ranks = np.linalg.solve(self.graph2, graph_mat)
         return {idx: r[0] for idx, r in enumerate(ranks)}
     
-    def build(self, sentence):
+    def build(self):
         tfidf = TfidfVectorizer()
         count = CountVectorizer()
-        tfidf_mat = tfidf.fit_transform(sentence).toarray()
+        tfidf_mat = tfidf.fit_transform(self.nouns).toarray()
         self.graph2 = np.dot(tfidf_mat, tfidf_mat.T)
  
 
@@ -59,9 +59,8 @@ class TextRank:
         index=[]
 
         idx_rank = self.get_rank()
-        sorted_rank_idx = sorted(idx_rank, key=lambda k: idx_rank[k], reverse=True)
+        sorted_rank_idx = sorted(idx_rank, key=lambda k: idx_rank[k], reverse=False)
         sorted_rank_idx = sorted_rank_idx[:int(len(sorted_rank_idx)*ratio)]
-        print(len(sorted_rank_idx))
         for idx in sorted_rank_idx:
             index.append(idx)
         index.sort()
