@@ -45,6 +45,8 @@ python summarizer_pos_tagging.py
 python summarizer_tfidf.py
 ```
 
+**Mode  -1 : summarizer_pos_tagging, 2: summarizer_pos_tagging **
+
 위의 코드를 실행하면 다음과 같은 안내가 나온다.
 
 **Select Mode - 1 : News, 2 : Custom Text**
